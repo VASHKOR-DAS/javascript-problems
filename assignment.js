@@ -96,6 +96,38 @@ console.log(floor);
 
 // assignment 3
 
-var name = ["Sakib", " Rahim", "Rony", " Abu Ullah", "Uday", "Khokon"];
+var name = ["Sakibur", "Rahim", "Rony", "Abu Ullah", "Khokon", "Joy"];
 
-var tinyFriend = '';
+var tinyFriend = name[0];
+
+for (var i = 0; i < name.length; i++) {
+    var element = name[i];
+
+    if(element.length < tinyFriend.length) {
+        tinyFriend = element;
+    }
+    
+}
+
+console.log(tinyFriend);
+
+
+//Big length friend name
+/**
+var name = ["Sakibur", "Rahim", "Ron", "Abu Ullah", "Khokon"];
+
+var BigFriend = '';
+
+for (var i = 0; i < name.length; i++) {
+    var element = name[i];
+
+    if(element.length > BigFriend.length) {
+        BigFriend = element;
+    }
+    
+}
+
+console.log(BigFriend);
+*/
+
+
