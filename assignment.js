@@ -94,7 +94,7 @@ console.log(floor);
 
 
 
-// assignment 3
+// assignment 4
 
 var name = ["Sakibur", "Rahim", "Rony", "Abu Ullah", "Khokon", "Joy"];
 
